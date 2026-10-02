@@ -1,20 +1,88 @@
-<h1>My First Web Page</h1>
+<head>
+    <style>
+    html, body {
+      background-color: #ffffff;
+      color: #000000;
+    }
+  </style>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#artist">Artist</a>
+        <a href="#about">About</a>
+    </nav>
+    <h1><strong>Music Sharing Platform</strong></h1>
+    <img src="images/cassette.jpg" 
+        alt="Cassette logo" 
+        title="Cassette"
+    >
+</head>
 
-<p>
-    Welcome to my first web page! This page is created as part of my web project lab.
-</p>
+<body>
+    <!--Statistics tables. Need align check-->
+    <h2><strong>STATISTICS</strong></h2>
+    <section>
+        <table>
+            <caption><strong>Trending songs</strong></caption>
+            <thead>
+                <tr>
+                    <th>Song Name</th>
+                    <th>Artist</th>
+                    <th>Listened Count</th>
+                </tr>
+            </thead>
+            <tbody align="center">
+                <tr>
+                    <td>Once Upon A Time</td>
+                    <td>Jenny</td>
+                    <td>42345</td>
+                </tr>
+                <tr>
+                    <td>Cest La Vie</td>
+                    <td>Ellie</td>
+                    <td>38567</td>
+                </tr>
+                <tr>
+                    <td>Bau Troi Xanh</td>
+                    <td>Long</td>
+                    <td>22312</td>
+                </tr>
+            </tbody>
+        </table>
+    <br>
+        <table>
+            <caption><strong>Trending artists</strong></caption>
+                <thead>
+                    <tr>
+                        <th>Artist Name</th>
+                        <th>Nationality</th>
+                        <th>Listened Count</th>
+                    </tr>
+                </thead>
 
-<h2>Using Text Formatting</h2>
-
-<p>
-    This is a <strong>bold</strong> text and this is an <em>italic</em> text.
-</p>
-
-<p> This is a <strong><em>bold and italic</em></strong> </p>
-
-<h2>Summary</h2>
-
-<p>Used <strong>headings</strong> (h1, h2).<br>
-   Added paragraphs (`p`).<br>
-   Styled text using <strong>bold</strong> and <em>italic</em>.<br>
-</p>
+                <tbody align="center">
+                    <tr>
+                        <td>Jenny</td>
+                        <td>United States</td>
+                        <td>453566</td>
+                    </tr>
+                    <tr>
+                        <td>Long</td>
+                        <td>Vietnam</td>
+                        <td>345677</td>
+                    </tr>
+                    <tr>
+                        <td>Ellie</td>
+                        <td>France</td>
+                        <td>231237</td>
+                    </tr>
+                </tbody>
+        </table>
+    </section>
+<br>
+<footer>
+    <p><strong>Info</strong></p>
+    <li><a href="#email">Email</a></li>
+    <li><a href="#phone">Phone</a></li>
+    <li><a href="#facebook">Facebook</a></li>
+</footer>
+</body>
